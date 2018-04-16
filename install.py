@@ -10,13 +10,15 @@ _apt_req_= [
 apt_cmd = "apt install "
 
 _pip_req_= [
-    "discord.py>=0.16.6",
+    "git+https://github.com/Rapptz/discord.py@rewrite",
     "pillow>=4.2.1",
     "requests>=2.18.4",
     "pytesseract>=0.1.7",
     "hastebin.py>=0.2",
     "python-dateutil>=2.6.1",
-    "dateparser>=0.6.0"
+    "dateparser>=0.6.0",
+	"gspread>=3.0.0",
+	"oauth2client>=4.1.2"
 ]
 
 def apt_install(packages):
